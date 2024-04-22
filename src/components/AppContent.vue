@@ -1,9 +1,11 @@
 <script>
 import AppHeader from './AppHeader.vue'
+import AppHero from './AppHero.vue'
 
 export default {
   components: {
     AppHeader,
+    AppHero,
   },
   data() {
     return {
@@ -16,10 +18,7 @@ export default {
 
 <template>
 
-  <section id="app-hero">
-    <AppHeader></AppHeader>
-    Hello I am the app hero
-  </section>
+  <AppHero></AppHero>
 
 
   <div>
