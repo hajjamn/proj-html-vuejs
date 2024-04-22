@@ -22,9 +22,9 @@ export default {
 <template>
 
   <div>
-    <AppHeader></AppHeader>
-    <AppContent></AppContent>
-    <AppFooter></AppFooter>
+    <AppHeader class="container"></AppHeader>
+    <AppContent class="container"></AppContent>
+    <AppFooter class="container container_footer"></AppFooter>
   </div>
 
 </template>

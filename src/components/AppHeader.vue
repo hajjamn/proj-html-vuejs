@@ -11,11 +11,11 @@ export default {
 </script>
 
 <template>
-
-  <div>
-    <h1>I am the {{ name }}</h1>
-  </div>
-
+  <header>
+    <h1>
+      I am the {{ name }}
+    </h1>
+  </header>
 </template>
 
 <style></style>
