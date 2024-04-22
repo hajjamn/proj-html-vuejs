@@ -1,6 +1,5 @@
 <script>
 import { store } from './store.js'
-import AppHeader from './components/AppHeader.vue'
 import AppContent from './components/AppContent.vue'
 import AppFooter from './components/AppFooter.vue'
 
@@ -22,7 +21,6 @@ export default {
 <template>
 
   <div>
-    <AppHeader class="container"></AppHeader>
     <AppContent class="container"></AppContent>
     <AppFooter class="container container_footer"></AppFooter>
   </div>
