@@ -12,9 +12,16 @@ export default {
 
 <template>
   <header>
-    <h1>
-      I am the {{ name }}
-    </h1>
+    <div class="d-flex justify-content-between">
+      <div>
+        I am the logo
+      </div>
+      <div>
+        <ul>
+          <li>I am the first item of the list</li>
+        </ul>
+      </div>
+    </div>
   </header>
 </template>
 
