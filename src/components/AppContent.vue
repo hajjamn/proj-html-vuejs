@@ -16,7 +16,11 @@ export default {
 
 <template>
 
-  <AppHeader></AppHeader>
+  <section id="app-hero">
+    <AppHeader></AppHeader>
+    Hello I am the app hero
+  </section>
+
 
   <div>
     <h1>I am the {{ name }}</h1>
