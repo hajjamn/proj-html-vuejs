@@ -51,17 +51,21 @@ export default {
 
   <section id="app-hero">
     <AppHeader :items="menuItems"></AppHeader>
-
-    <div class="container container_small">
-      <div class="row">
-        <div class="col-4">
-          <p class="before-title">FRESH &TASTY BAKERY EVERY DAY</p>
-          <h1>The Perfect Fresh Bread</h1>
-          <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rerum, cum earum
-            consequuntur beatae
-            nihil hic, quos nulla sit aliquid excepturi eveniet possimus magnam. Adipisci obcaecati repellendus
-            blanditiis totam nam?</p>
-          <button class="my-btn my-btn-white my-2">Explore our products</button>
+    <div class="the-stuff-that-is-not-the-header position-relative">
+      <div class="position-absolute top-0 end-0">
+        Ciao siamo i due tastini strani in alto a destra
+      </div>
+      <div class="container container_small" id="hero">
+        <div class="row">
+          <div class="col-4">
+            <p class="before-title">FRESH &TASTY BAKERY EVERY DAY</p>
+            <h1>The Perfect Fresh Bread</h1>
+            <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rerum, cum earum
+              consequuntur beatae
+              nihil hic, quos nulla sit aliquid excepturi eveniet possimus magnam. Adipisci obcaecati repellendus
+              blanditiis totam nam?</p>
+            <button class="my-btn my-btn-white my-2">Explore our products</button>
+          </div>
         </div>
       </div>
     </div>
@@ -75,7 +79,7 @@ h1 {
   font-weight: 700;
 }
 
-.container_small {
-  margin-top: 190px;
+#hero {
+  padding-top: 190px;
 }
 </style>
