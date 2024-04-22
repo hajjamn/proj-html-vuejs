@@ -20,11 +20,6 @@ export default {
 
   <AppHero></AppHero>
 
-
-  <div>
-    <h1>I am the {{ name }}</h1>
-  </div>
-
 </template>
 
 <style></style>

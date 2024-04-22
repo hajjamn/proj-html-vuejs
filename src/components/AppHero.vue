@@ -52,8 +52,18 @@ export default {
   <section id="app-hero">
     <AppHeader :items="menuItems"></AppHeader>
     <div class="the-stuff-that-is-not-the-header position-relative">
-      <div class="position-absolute top-0 end-0">
-        Ciao siamo i due tastini strani in alto a destra
+      <div class="position-absolute top-0 end-0 px-2">
+        <div class="my-square mb-2">
+          <font-awesome-icon :icon="['fas', 'folder']" />
+          <span>Demos</span>
+        </div>
+        <div class="my-square green">
+          <div class="green-price d-flex">
+            <span class="dollar-sign">$</span>
+            <span class="price">39</span>
+          </div>
+          <span>On Sale</span>
+        </div>
       </div>
       <div class="container container_small" id="hero">
         <div class="row">
@@ -81,5 +91,32 @@ h1 {
 
 #hero {
   padding-top: 190px;
+}
+
+.my-square {
+  background-color: var(--first_color);
+  border-radius: 5px;
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 3px #000000;
+  aspect-ratio: 1;
+}
+
+.green-price {
+  color: green;
+}
+
+.dollar-sign {
+  margin-top: 0;
+  display: inline-block;
+}
+
+.price {
+  margin-top: 2px;
+  display: inline-block;
+  font-size: large;
 }
 </style>
