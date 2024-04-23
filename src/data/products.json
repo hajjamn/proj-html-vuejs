@@ -1,70 +1,114 @@
 {
   "products": [
     {
-      "name": "Blacberry Stuffed Bread",
+      "name": "Blackberry Stuffed Bread",
       "src": "/blackberry-stuffed-bread.jpg",
       "firstPrice": "Non pervenuto",
-      "secondPrice": "Manco questo"
+      "secondPrice": "Manco questo",
+      "tags": [
+        "Bread",
+        "Pastries"
+      ]
     },
     {
       "name": "Cherry Cake",
       "src": "/cherry-cake.jpg",
       "firstPrice": "Non pervenuto",
-      "secondPrice": "Manco questo"
+      "secondPrice": "Manco questo",
+      "tags": [
+        "Cake",
+        "Pastries"
+      ]
     },
     {
       "name": "Choco Chip Cookies",
       "src": "/choco-chip-cookies.jpg",
       "firstPrice": "19.00",
-      "secondPrice": "39.00"
+      "secondPrice": "39.00",
+      "tags": [
+        "Cookies",
+        "Pastries"
+      ]
     },
     {
       "name": "Cookies With Ice Cream",
       "src": "/cookies-with-ice-cream.jpg",
       "firstPrice": "Non pervenuto",
-      "secondPrice": "Manco questo"
+      "secondPrice": "Manco questo",
+      "tags": [
+        "Cookies",
+        "Pastries"
+      ]
     },
     {
       "name": "Glazed Pancake With Lemon",
       "src": "/glazed-pancake-with-lemon.jpg",
       "firstPrice": "Non pervenuto",
-      "secondPrice": "Manco questo"
+      "secondPrice": "Manco questo",
+      "tags": [
+        "Pancakes",
+        "Pastries"
+      ]
     },
     {
       "name": "Home Bread",
       "src": "/home-bread.jpg",
       "firstPrice": "Non pervenuto",
-      "secondPrice": "Manco questo"
+      "secondPrice": "Manco questo",
+      "tags": [
+        "Bread",
+        "Pastries"
+      ]
     },
     {
       "name": "Perfect Macarons",
       "src": "/perfect-macarons.jpg",
       "firstPrice": "18.00",
-      "secondPrice": "52.00"
+      "secondPrice": "52.00",
+      "tags": [
+        "Macarons",
+        "Pastries"
+      ]
     },
     {
       "name": "Permium Bread",
       "src": "/premium-bread.jpg",
       "firstPrice": "Non pervenuto",
-      "secondPrice": "Manco questo"
+      "secondPrice": "Manco questo",
+      "tags": [
+        "Bread",
+        "Pastries"
+      ]
     },
     {
       "name": "Small Cupcake",
       "src": "/small-cupcake.jpg",
       "firstPrice": "Non pervenuto",
-      "secondPrice": "Manco questo"
+      "secondPrice": "Manco questo",
+      "tags": [
+        "Cupcakes",
+        "Pastries"
+      ]
     },
     {
       "name": "Strawberry Donut",
       "src": "/strawberry-donut.jpg",
       "firstPrice": "24.00",
-      "secondPrice": "42.00"
+      "secondPrice": "42.00",
+      "tags": [
+        "Donuts",
+        "Pastries"
+      ]
     },
     {
       "name": "Strawberry Jam Cookies",
       "src": "/strawberry-jam-cookies.jpg",
       "firstPrice": "24.00",
-      "secondPrice": "62.00"
+      "secondPrice": "62.00",
+      "tags": [
+        "Cookies",
+        "Pastries"
+      ]
     }
   ]
 }

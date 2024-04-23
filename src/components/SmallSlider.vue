@@ -13,5 +13,4 @@ export default {
 
 </template>
 
-<script>
-</script>
+<style></style>

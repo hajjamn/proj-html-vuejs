@@ -33,7 +33,7 @@ export default {
           <span>On Sale</span>
         </div>
       </div>
-      <div class="container container_small" id="hero">
+      <div class="my-container my-container-small" id="hero">
         <div class="row">
           <div class="col-4">
             <p class="before-title">FRESH & TASTY BAKERY EVERY DAY</p>
