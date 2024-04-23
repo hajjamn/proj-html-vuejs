@@ -17,9 +17,11 @@ export default {
   <div class="position-relative">
     <img :src="`/img${item.src}`" :alt="item.name" @mouseover="hover = true" @mouseleave="hover = false">
     <div class="my-card-overlay" :class="hover === false ? 'my-hover' : ''">
-      <strong>{{ item.name }}</strong>
-      <em>{{ item.tags[0] }}, {{ item.tags[1] }}</em>
-      <p>${{ item.firstPrice }} ${{ item.secondPrice }}</p>
+      <div class="my-info-wrapper">
+        <h4>{{ item.name }}</h4>
+        <em class="mb-3">{{ item.tags[0] }}, {{ item.tags[1] }}</em>
+        <h5>${{ item.firstPrice }} ${{ item.secondPrice }}</h5>
+      </div>
     </div>
   </div>
 
@@ -43,9 +45,17 @@ img {
   pointer-events: none;
   opacity: 1;
   transition: opacity 0.5s ease;
+  display: flex;
 }
 
 .my-hover {
   opacity: 0;
+}
+
+.my-info-wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 </style>

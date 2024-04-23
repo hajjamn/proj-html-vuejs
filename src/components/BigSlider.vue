@@ -10,6 +10,7 @@ export default {
   data() {
     return {
       products,
+      currentIndex: 0,
     }
   }
 }
@@ -30,8 +31,8 @@ export default {
             <button class="my-slider-btn start-0 z-3"><span>
                 < </span></button>
             <button class="my-slider-btn end-0 z-3"><span> > </span></button>
-            <BigSliderCard :item="products.products[0]" class="col-6"></BigSliderCard>
-            <BigSliderCard :item="products.products[1]" class="col-6"></BigSliderCard>
+            <BigSliderCard :item="products.products[currentIndex]"></BigSliderCard>
+            <BigSliderCard :item="products.products[currentIndex + 1]"></BigSliderCard>
           </div>
         </div>
       </div>
