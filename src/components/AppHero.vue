@@ -102,6 +102,8 @@ h1 {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 3px #000000;
+  color: var(--fifth_color);
+  cursor: pointer;
 }
 
 .green-price {
