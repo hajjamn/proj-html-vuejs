@@ -1,0 +1,36 @@
+{
+  "menuItems": [
+    {
+      "title": "HOME",
+      "anchor": "#"
+    },
+    {
+      "title": "SHOP",
+      "anchor": "#"
+    },
+    {
+      "title": "ABOUT",
+      "anchor": "#"
+    },
+    {
+      "title": "GALLERY",
+      "anchor": "#"
+    },
+    {
+      "title": "LOCATIONS",
+      "anchor": "#"
+    },
+    {
+      "title": "JOURNAL",
+      "anchor": "#"
+    },
+    {
+      "title": "CONTACT",
+      "anchor": "#"
+    },
+    {
+      "title": "MY ACCOUNT",
+      "anchor": "#"
+    }
+  ]
+}

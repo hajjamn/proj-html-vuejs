@@ -7,7 +7,7 @@ export default {
     }
   },
   props: {
-    items: Array,
+    items: Object,
   }
 }
 
@@ -21,7 +21,8 @@ export default {
       </div>
       <div>
         <ul class="d-flex">
-          <li class="mx-3" v-for="item in items"><a :href="`${item.anchor}`">{{ item.title }}</a></li>
+          <li class="mx-3" v-for="item in items.menuItems"><a :href="`${item.anchor}`">{{ item.title }}</a>
+          </li>
           <li class="mx-3"><a href="#"><font-awesome-icon icon="fa-solid fa-cart-shopping" /></a></li>
         </ul>
       </div>

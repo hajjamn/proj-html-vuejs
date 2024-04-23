@@ -1,5 +1,6 @@
 <script>
 import AppHeader from './AppHeader.vue'
+import menuItems from '../data/menu.json'
 
 export default {
   components: {
@@ -7,40 +8,7 @@ export default {
   },
   data() {
     return {
-      menuItems: [
-        {
-          title: 'HOME',
-          anchor: '#'
-        },
-        {
-          title: 'SHOP',
-          anchor: '#'
-        },
-        {
-          title: 'ABOUT',
-          anchor: '#'
-        },
-        {
-          title: 'GALLERY',
-          anchor: '#'
-        },
-        {
-          title: 'LOCATIONS',
-          anchor: '#'
-        },
-        {
-          title: 'JOURNAL',
-          anchor: '#'
-        },
-        {
-          title: 'CONTACT',
-          anchor: '#'
-        },
-        {
-          title: 'MY ACCOUNT',
-          anchor: '#'
-        },
-      ]
+      menuItems,
     }
   }
 }
@@ -68,7 +36,7 @@ export default {
       <div class="container container_small" id="hero">
         <div class="row">
           <div class="col-4">
-            <p class="before-title">FRESH &TASTY BAKERY EVERY DAY</p>
+            <p class="before-title">FRESH & TASTY BAKERY EVERY DAY</p>
             <h1>The Perfect Fresh Bread</h1>
             <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rerum, cum earum
               consequuntur beatae
