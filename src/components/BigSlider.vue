@@ -12,6 +12,31 @@ export default {
       products,
       currentIndex: 0,
     }
+  },
+  computed: {
+    nextIndex() {
+      if (this.currentIndex < this.products.products.length - 1) {
+        return this.currentIndex + 1
+      } else {
+        return 0
+      }
+    }
+  },
+  methods: {
+    increaseIndex() {
+      if (this.currentIndex < this.products.products.length - 1) {
+        this.currentIndex++
+      } else {
+        this.currentIndex = 0
+      }
+    },
+    decreaseIndex() {
+      if (this.currentIndex > 0) {
+        this.currentIndex--
+      } else {
+        this.currentIndex = this.products.products.length - 1
+      }
+    }
   }
 }
 </script>
@@ -28,11 +53,11 @@ export default {
         </div>
         <div class="col-8">
           <div class="my-slider">
-            <button class="my-slider-btn start-0 z-3"><span>
+            <button class="my-slider-btn start-0 z-3" @click="decreaseIndex()"><span>
                 < </span></button>
-            <button class="my-slider-btn end-0 z-3"><span> > </span></button>
+            <button class="my-slider-btn end-0 z-3" @click="increaseIndex()"><span> > </span></button>
             <BigSliderCard :item="products.products[currentIndex]"></BigSliderCard>
-            <BigSliderCard :item="products.products[currentIndex + 1]"></BigSliderCard>
+            <BigSliderCard :item="products.products[nextIndex]"></BigSliderCard>
           </div>
         </div>
       </div>
