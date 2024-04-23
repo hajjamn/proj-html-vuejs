@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "name": "Blacberry Stuffed Bread",
+      "src": "/blackberry-stuffed-bread.jpg",
+      "firstPrice": "Non pervenuto",
+      "secondPrice": "Manco questo"
+    },
+    {
+      "name": "Cherry Cake",
+      "src": "/cherry-cake.jpg",
+      "firstPrice": "Non pervenuto",
+      "secondPrice": "Manco questo"
+    },
+    {
+      "name": "Choco Chip Cookies",
+      "src": "/choco-chip-cookies.jpg",
+      "firstPrice": "19.00",
+      "secondPrice": "39.00"
+    },
+    {
+      "name": "Cookies With Ice Cream",
+      "src": "/cookies-with-ice-cream.jpg",
+      "firstPrice": "Non pervenuto",
+      "secondPrice": "Manco questo"
+    },
+    {
+      "name": "Glazed Pancake With Lemon",
+      "src": "/glazed-pancake-with-lemon.jpg",
+      "firstPrice": "Non pervenuto",
+      "secondPrice": "Manco questo"
+    },
+    {
+      "name": "Home Bread",
+      "src": "/home-bread.jpg",
+      "firstPrice": "Non pervenuto",
+      "secondPrice": "Manco questo"
+    },
+    {
+      "name": "Perfect Macarons",
+      "src": "/perfect-macarons.jpg",
+      "firstPrice": "18.00",
+      "secondPrice": "52.00"
+    },
+    {
+      "name": "Permium Bread",
+      "src": "/premium-bread.jpg",
+      "firstPrice": "Non pervenuto",
+      "secondPrice": "Manco questo"
+    },
+    {
+      "name": "Small Cupcake",
+      "src": "/small-cupcake.jpg",
+      "firstPrice": "Non pervenuto",
+      "secondPrice": "Manco questo"
+    },
+    {
+      "name": "Strawberry Donut",
+      "src": "/strawberry-donut.jpg",
+      "firstPrice": "24.00",
+      "secondPrice": "42.00"
+    },
+    {
+      "name": "Strawberry Jam Cookies",
+      "src": "/strawberry-jam-cookies.jpg",
+      "firstPrice": "24.00",
+      "secondPrice": "62.00"
+    }
+  ]
+}
