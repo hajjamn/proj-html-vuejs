@@ -102,7 +102,6 @@ h1 {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 3px #000000;
-  aspect-ratio: 1;
 }
 
 .green-price {
