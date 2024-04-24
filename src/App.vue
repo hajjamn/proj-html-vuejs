@@ -1,6 +1,6 @@
 <script>
 import { store } from './store.js'
-import AppContent from './components/AppContent.vue'
+import AppContent from './components/content/AppContent.vue'
 import AppFooter from './components/AppFooter.vue'
 
 export default {

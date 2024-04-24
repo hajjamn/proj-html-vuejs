@@ -1,8 +1,8 @@
 <script>
-import AppHeader from './AppHeader.vue'
-import AppHero from './AppHero.vue'
-import BigSlider from './BigSlider.vue'
-import SpecialMoments from './SpecialMoments.vue'
+import AppHeader from './hero/AppHeader.vue'
+import AppHero from './hero/AppHero.vue'
+import BigSlider from './big slider/BigSlider.vue'
+import SpecialMoments from './special moments/SpecialMoments.vue'
 
 export default {
   components: {

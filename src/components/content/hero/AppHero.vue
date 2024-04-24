@@ -1,6 +1,6 @@
 <script>
 import AppHeader from './AppHeader.vue'
-import menuItems from '../data/menu.json'
+import menuItems from '../../../data/menu.json'
 
 export default {
   components: {

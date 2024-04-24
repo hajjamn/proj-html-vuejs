@@ -1,6 +1,6 @@
 <script>
 
-import products from '../data/products.json'
+import products from '../../../data/products.json'
 import BigSliderCard from './BigSliderCard.vue'
 
 export default {
