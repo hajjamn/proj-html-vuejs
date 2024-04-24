@@ -26,13 +26,13 @@ export default {
           <p class="number fw-light">{{ item.number }}</p>
         </div>
         <div class="col-6">
-          <div v-if="item.textLocation === 'bottom-left'" class="pt-4">
-            <p class="before-title">{{ item.comment }}</p>
+          <div v-if="item.textLocation === 'bottom-left'" class="mt-4 pe-5" :class="item.number === '02' ? '' : 'pt-5'">
+            <p class=" before-title">{{ item.comment }}</p>
             <p class="text-bottom">{{ item.text }}</p>
           </div>
         </div>
         <div class="col-6">
-          <div v-if="item.textLocation === 'bottom-right'" class="pt-4">
+          <div v-if="item.textLocation === 'bottom-right'" class="mt-4 pe-5 pt-5">
             <p class="before-title">{{ item.comment }}</p>
             <p class="text-bottom">{{ item.text }}</p>
           </div>
