@@ -5,14 +5,16 @@
       "phone": "1.800.458.556",
       "openingTime": "9:00 AM",
       "closingTime": "6:00 PM",
-      "totallyWorkingMapCoordinates": ""
+      "totallyWorkingMapCoordinates": "",
+      "src": "/img/new-york-bk.jpg"
     },
     {
       "city": "London",
       "phone": "1.800.458.556",
       "openingTime": "9:00 AM",
       "closingTime": "6:00 PM",
-      "totallyWorkingMapCoordinates": ""
+      "totallyWorkingMapCoordinates": "",
+      "src": "/img/london-bk.jpg"
     }
   ]
 }

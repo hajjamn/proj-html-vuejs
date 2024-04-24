@@ -22,7 +22,7 @@ export default {
     </div>
     <div class="my-container my-container-small">
       <div class="row">
-        <div class="col" v-for="location in locationsData.locations">
+        <div class="col p-0" v-for="location in locationsData.locations">
           <LocationsCard :item="location"></LocationsCard>
         </div>
       </div>
