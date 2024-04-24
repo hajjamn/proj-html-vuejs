@@ -1,0 +1,16 @@
+{
+  "cardData": [
+    {
+      "description": "INTERNATIONAL BAKERY",
+      "title": "Corporate Events",
+      "firstImage": "corporate-bg.jpg",
+      "secondImage": "corporate-hover-bg.jpg"
+    },
+    {
+      "description": "PRIVATE DINING HALL",
+      "title": "Weddings & Parties",
+      "firstImage": "wedding-bg.jpg",
+      "secondImage": "wedding-hover-bg.jpg"
+    }
+  ]
+}
