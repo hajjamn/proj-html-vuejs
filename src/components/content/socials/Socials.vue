@@ -13,7 +13,7 @@ export default {
 <template>
   <section>
     <div class="my-container my-container-small">
-      <div class="row gx-3 gy-3">
+      <div class="row gx-4 gy-4">
         <div class="col-3">
           <img :src="`${pics}1.jpg`" alt="">
         </div>

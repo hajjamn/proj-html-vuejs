@@ -7,6 +7,7 @@ import SmallSlider from './small slider/SmallSlider.vue'
 import Process from './process/Process.vue'
 import Locations from './locations/Locations.vue'
 import Socials from './socials/Socials.vue'
+import CallToAction from './call to action/CallToAction.vue'
 
 export default {
   components: {
@@ -18,6 +19,7 @@ export default {
     Process,
     Locations,
     Socials,
+    CallToAction,
   },
   data() {
     return {
@@ -36,6 +38,7 @@ export default {
   <Process></Process>
   <Locations></Locations>
   <Socials></Socials>
+  <CallToAction></CallToAction>
 
 </template>
 
