@@ -2,7 +2,7 @@
   "products": [
     {
       "name": "Blackberry Stuffed Bread",
-      "src": "/blackberry-stuffed-bread.jpg",
+      "src": "blackberry-stuffed-bread",
       "firstPrice": "00.00",
       "secondPrice": "00.00",
       "tags": [
@@ -12,7 +12,7 @@
     },
     {
       "name": "Cherry Cake",
-      "src": "/cherry-cake.jpg",
+      "src": "cherry-cake",
       "firstPrice": "00.00",
       "secondPrice": "00.00",
       "tags": [
@@ -22,7 +22,7 @@
     },
     {
       "name": "Choco Chip Cookies",
-      "src": "/choco-chip-cookies.jpg",
+      "src": "choco-chip-cookies",
       "firstPrice": "19.00",
       "secondPrice": "39.00",
       "tags": [
@@ -32,7 +32,7 @@
     },
     {
       "name": "Cookies With Ice Cream",
-      "src": "/cookies-with-ice-cream.jpg",
+      "src": "cookies-with-ice-cream",
       "firstPrice": "00.00",
       "secondPrice": "00.00",
       "tags": [
@@ -42,7 +42,7 @@
     },
     {
       "name": "Glazed Pancake With Lemon",
-      "src": "/glazed-pancake-with-lemon.jpg",
+      "src": "glazed-pancake-with-lemon",
       "firstPrice": "00.00",
       "secondPrice": "00.00",
       "tags": [
@@ -52,7 +52,7 @@
     },
     {
       "name": "Home Bread",
-      "src": "/home-bread.jpg",
+      "src": "home-bread",
       "firstPrice": "00.00",
       "secondPrice": "00.00",
       "tags": [
@@ -62,7 +62,7 @@
     },
     {
       "name": "Perfect Macarons",
-      "src": "/perfect-macarons.jpg",
+      "src": "perfect-macarons",
       "firstPrice": "18.00",
       "secondPrice": "52.00",
       "tags": [
@@ -72,7 +72,7 @@
     },
     {
       "name": "Permium Bread",
-      "src": "/premium-bread.jpg",
+      "src": "premium-bread",
       "firstPrice": "00.00",
       "secondPrice": "00.00",
       "tags": [
@@ -82,7 +82,7 @@
     },
     {
       "name": "Small Cupcake",
-      "src": "/small-cupcake.jpg",
+      "src": "small-cupcake",
       "firstPrice": "00.00",
       "secondPrice": "00.00",
       "tags": [
@@ -92,7 +92,7 @@
     },
     {
       "name": "Strawberry Donut",
-      "src": "/strawberry-donut.jpg",
+      "src": "strawberry-donut",
       "firstPrice": "24.00",
       "secondPrice": "42.00",
       "tags": [
@@ -102,7 +102,7 @@
     },
     {
       "name": "Strawberry Jam Cookies",
-      "src": "/strawberry-jam-cookies.jpg",
+      "src": "strawberry-jam-cookies",
       "firstPrice": "24.00",
       "secondPrice": "62.00",
       "tags": [

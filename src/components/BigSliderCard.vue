@@ -14,8 +14,8 @@ export default {
 
 <template>
 
-  <div class="position-relative">
-    <img :src="`/img${item.src}`" :alt="item.name" @mouseover="hover = true" @mouseleave="hover = false">
+  <div class="position-relative my-card">
+    <img :src="`/img/${item.src}.jpg`" :alt="item.name" @mouseover="hover = true" @mouseleave="hover = false">
     <div class="my-card-overlay" :class="hover === false ? 'my-hover' : ''">
       <div class="my-info-wrapper">
         <h4>{{ item.name }}</h4>
@@ -29,6 +29,11 @@ export default {
 </template>
 
 <style>
+.my-card {
+  width: 50%;
+  flex-shrink: 0;
+}
+
 img {
   max-width: 100%;
 }

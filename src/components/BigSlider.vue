@@ -11,6 +11,8 @@ export default {
     return {
       products,
       currentIndex: 0,
+      isNextSlide: false,
+      isPrevSlide: false,
     }
   },
   computed: {
@@ -21,15 +23,26 @@ export default {
         return 0
       }
     },
+    nextCurrentIndex() {
+      if (this.isNextSlide === true) {
+        //se viene pigiato nextSlide devo far comparire currentIndex + 2  che arriva da destra, oppure lo 0
+      }
+    },
+    prevCurrentIndex() {
+      if (this.isPrevSlide === true) {
+        //se viene pigiato prevSlide devo far comparire currentIndex - 2 che arriva da sinistra, oppure producs.products.length - 1
+      }
+    },
     firstCard() {
-      return document.getElementById('first-card')
+      return document.getElementById(`product-${this.currentIndex}`)
     },
     secondCard() {
-      return document.getElementById('second-card')
+      return document.getElementById(`product-${this.nextIndex}`)
     }
   },
   methods: {
     nextSlide() {
+      this.isNextSlide = true
       this.firstCard.classList.add('slide-out-left')
       this.secondCard.classList.add('slide-out-left')
       setTimeout(this.increaseIndex, 500)
@@ -40,10 +53,12 @@ export default {
       } else {
         this.currentIndex = 0
       }
-      this.firstCard.classList.remove('slide-out-left')
-      this.secondCard.classList.remove('slide-out-left')
+      /*       this.firstCard.classList.remove('slide-out-left')
+            this.secondCard.classList.remove('slide-out-left')
+            this.isNextSlide = false */
     },
     prevSlide() {
+      this.isPrevSlide = true
       this.firstCard.classList.add('slide-out-right')
       this.secondCard.classList.add('slide-out-right')
       setTimeout(this.decreaseIndex(), 500)
@@ -54,8 +69,9 @@ export default {
       } else {
         this.currentIndex = this.products.products.length - 1
       }
-      this.firstCard.classList.remove('slide-out-right')
-      this.secondCard.classList.remove('slide-out-right')
+      /*       this.firstCard.classList.remove('slide-out-right')
+            this.secondCard.classList.remove('slide-out-right')
+            this.isPrevSlide = false */
     }
   }
 }
@@ -73,11 +89,13 @@ export default {
         </div>
         <div class="col-8">
           <div class="my-slider">
-            <button class="my-slider-btn start-0 z-3" @click="prevSlide()"><span>
+            <button class="my-slider-btn start-0 z-3" @click="decreaseIndex()"><span>
                 < </span></button>
-            <button class="my-slider-btn end-0 z-3" @click="nextSlide()"><span> > </span></button>
-            <BigSliderCard :item="products.products[currentIndex]" id="first-card"></BigSliderCard>
-            <BigSliderCard :item="products.products[nextIndex]" id="second-card"></BigSliderCard>
+            <button class="my-slider-btn end-0 z-3" @click="increaseIndex()"><span> > </span></button>
+            <!-- <BigSliderCard v-for="(product, i) in products.products" :item="product" :id="`product-${i}`">
+            </BigSliderCard> -->
+            <BigSliderCard :item="products.products[currentIndex]" :id="`product-${currentIndex}`"></BigSliderCard>
+            <BigSliderCard :item="products.products[nextIndex]" :id="`product-${nextIndex}`"></BigSliderCard>
           </div>
         </div>
       </div>
