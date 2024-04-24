@@ -31,10 +31,10 @@ export default {
           <img :src="`${pics}3.jpg`" alt="">
         </div>
         <div class="col-3">
-          <img :src="`${pics}4.jpg`" alt="">
+          <img :src="`${pics}5.jpg`" alt="">
         </div>
         <div class="col-3">
-          <img :src="`${pics}5.jpg`" alt="">
+          <img :src="`${pics}4.jpg`" alt="">
         </div>
         <div class="col-3">
           <img :src="`${pics}6.jpg`" alt="">

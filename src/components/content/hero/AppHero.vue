@@ -28,7 +28,7 @@ export default {
         <div class="my-square green">
           <div class="green-price d-flex">
             <span class="dollar-sign">$</span>
-            <span class="price">39</span>
+            <span class="price fw-bolder fs-4">39</span>
           </div>
           <span>On Sale</span>
         </div>
