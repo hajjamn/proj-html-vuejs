@@ -21,7 +21,7 @@ export default {
           <div class="my-info">
             <p class="before-title">MADE FOR SHARING</p>
             <h2>Let's stay in touch</h2>
-            <button class="my-btn my-btn-purple">Follow Us</button>
+            <button class="my-btn my-btn-purple"><font-awesome-icon icon="fa-brands fa-instagram" /> Follow Us</button>
           </div>
         </div>
         <div class="col-3">
