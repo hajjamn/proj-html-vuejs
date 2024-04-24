@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div :class="`bg-${item.bgColor}`" class="pb-5">
     <img :src="item.src" alt="">
     <div class="row text-center">
       <div class="col-12">
@@ -43,5 +43,13 @@ h2 {
 
 p {
   margin: 0;
+}
+
+.bg-fourth {
+  background-color: var(--fourth_color);
+}
+
+.bg-second {
+  background-color: var(--second_color);
 }
 </style>

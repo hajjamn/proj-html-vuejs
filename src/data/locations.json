@@ -6,7 +6,8 @@
       "openingTime": "9:00 AM",
       "closingTime": "6:00 PM",
       "totallyWorkingMapCoordinates": "",
-      "src": "/img/new-york-bk.jpg"
+      "src": "/img/new-york-bk.jpg",
+      "bgColor": "fourth"
     },
     {
       "city": "London",
@@ -14,7 +15,8 @@
       "openingTime": "9:00 AM",
       "closingTime": "6:00 PM",
       "totallyWorkingMapCoordinates": "",
-      "src": "/img/london-bk.jpg"
+      "src": "/img/london-bk.jpg",
+      "bgColor": "second"
     }
   ]
 }
