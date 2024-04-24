@@ -1,9 +1,14 @@
 <script>
+import ProcessCard from './ProcessCard.vue'
+import processData from '../../../data/process.json'
 
 export default {
+  components: {
+    ProcessCard,
+  },
   data() {
     return {
-
+      processData,
     }
   }
 }
@@ -16,10 +21,10 @@ export default {
     <div class="my-container my-container-small">
       <div class="row gy-4 gx-5">
         <div class="col-12">
-          <img src="/img/bakery-process-1.jpg" alt="">
+          <ProcessCard :item="processData.cards[0]"></ProcessCard>
         </div>
         <div class="col-6">
-          <img src="/img/bakery-process-2.jpg" alt="">
+          <ProcessCard :item="processData.cards[1]"></ProcessCard>
         </div>
         <div class="col-6 my-supercazzola-wrapper">
           <p class="before-title">DON'T JUST TAKE OUR WORD FOR IT</p>
@@ -29,7 +34,7 @@ export default {
           <p class="before-title">Rachel Cooper, Founder</p>
         </div>
         <div class="col-12">
-          <img src="/img/bakery-process-3.jpg" alt="">
+          <ProcessCard :item="processData.cards[2]"></ProcessCard>
         </div>
       </div>
     </div>

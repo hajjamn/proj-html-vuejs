@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "number": "01",
+      "title": "Tell us what you have in mind",
+      "comment": "MANUAL INGREDIENTS SELECTION",
+      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. In vel, eaque corporis explicabo voluptates molestiae consectetur obcaecati nulla omnis nemo voluptatum nobis similique maiores vero eius laborum necessitatibus officia deserunt.",
+      "textLocation": "bottom-right",
+      "src": "/img/bakery-process-1.jpg"
+    },
+    {
+      "number": "02",
+      "title": "We Start Baking",
+      "comment": "SWEET & DELICIOUS",
+      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. In vel, eaque corporis explicabo voluptates molestiae consectetur obcaecati nulla omnis nemo voluptatum nobis similique maiores vero eius laborum necessitatibus officia deserunt.",
+      "textLocation": "bottom-left",
+      "src": "/img/bakery-process-2.jpg"
+    },
+    {
+      "number": "03",
+      "title": "Delivered to your home",
+      "comment": "BAKED TO ORDER & GIFT WRAPPED",
+      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. In vel, eaque corporis explicabo voluptates molestiae consectetur obcaecati nulla omnis nemo voluptatum nobis similique maiores vero eius laborum necessitatibus officia deserunt.",
+      "textLocation": "bottom-left",
+      "src": "/img/bakery-process-3.jpg"
+    }
+  ]
+}
