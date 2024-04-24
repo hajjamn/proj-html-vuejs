@@ -1,0 +1,18 @@
+{
+  "locations": [
+    {
+      "city": "New York",
+      "phone": "1.800.458.556",
+      "openingTime": "9:00 AM",
+      "closingTime": "6:00 PM",
+      "totallyWorkingMapCoordinates": ""
+    },
+    {
+      "city": "London",
+      "phone": "1.800.458.556",
+      "openingTime": "9:00 AM",
+      "closingTime": "6:00 PM",
+      "totallyWorkingMapCoordinates": ""
+    }
+  ]
+}

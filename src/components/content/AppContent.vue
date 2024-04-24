@@ -5,6 +5,7 @@ import BigSlider from './big slider/BigSlider.vue'
 import SpecialMoments from './special moments/SpecialMoments.vue'
 import SmallSlider from './small slider/SmallSlider.vue'
 import Process from './process/Process.vue'
+import Locations from './locations/Locations.vue'
 
 export default {
   components: {
@@ -14,6 +15,7 @@ export default {
     SpecialMoments,
     SmallSlider,
     Process,
+    Locations,
   },
   data() {
     return {
@@ -30,6 +32,7 @@ export default {
   <SpecialMoments></SpecialMoments>
   <SmallSlider></SmallSlider>
   <Process></Process>
+  <Locations></Locations>
 
 </template>
 
