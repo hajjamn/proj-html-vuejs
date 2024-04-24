@@ -6,6 +6,7 @@ import SpecialMoments from './special moments/SpecialMoments.vue'
 import SmallSlider from './small slider/SmallSlider.vue'
 import Process from './process/Process.vue'
 import Locations from './locations/Locations.vue'
+import Socials from './socials/Socials.vue'
 
 export default {
   components: {
@@ -16,6 +17,7 @@ export default {
     SmallSlider,
     Process,
     Locations,
+    Socials,
   },
   data() {
     return {
@@ -33,6 +35,7 @@ export default {
   <SmallSlider></SmallSlider>
   <Process></Process>
   <Locations></Locations>
+  <Socials></Socials>
 
 </template>
 
